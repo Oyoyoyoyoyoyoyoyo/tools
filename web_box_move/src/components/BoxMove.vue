@@ -36,7 +36,6 @@ export default {
       // 获取浏览器尺寸
       this.screen.x = document.body.clientWidth;
       this.screen.y = document.body.clientHeight;
-      console.log("scy", screenY);
       this.moveParams.x = e.clientX;
       this.moveParams.y = e.clientY;
       //获取左部和顶部的偏移量
